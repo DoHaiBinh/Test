@@ -1,5 +1,3 @@
-Hello world!
-[aaa](http://bongdaso.com)
 ![Alt text](https://g.gravizo.com/svg?
   digraph G {
     aize ="4,4";
