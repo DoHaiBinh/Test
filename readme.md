@@ -1,22 +1,9 @@
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Ffix%2FREADME%2FREADME.md)
-<details> 
-<summary></summary>
-custom_mark10
-  digraph G {
-    aize ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
-    parse -> execute;
-    main -> init [style=dotted];
-    main -> cleanup;
-    execute -> { make_string; printf};
-    init -> make_string;
-    edge [color=red];
-    main -> printf [style=bold,label="100 times"];
-    make_string [label="make a string"];
-    node [shape=box,style=filled,color=".7 .3 1.0"];
-    execute -> compare;
-  }
-custom_mark10
-)
-</details>
+#1.Tên d? án: Englishforyou
+#2.D?a theo trang web:  [Click vào ðây](http://englishlearningdemo.herokuapp.com)
+#3.Thành viên:
+###- Nguy?n Vãn Quang Huy
+###- Ð? H?i B?nh
+###- Tr?n Vãn Ngh?a
+###- Bùi Ð?c Hoàng
+#4.![Use Case](https://drive.google.com/file/d/0B8hFSkK0NvA2SHpMOVRDOFJqQVk/view)
+#5.K?ch b?n [?n vào ðây](https://docs.google.com/document/d/1SxHN23YpxtpN-zH9XhIC_oRMn43vLA9VGEPT8MT4Za8/edit)
