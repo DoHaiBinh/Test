@@ -1,4 +1,38 @@
-
+Feature: Chõi tr? chõi
+In order to thý gi?n và ki?m tra ki?n th?c ð? h?c ðý?c
+	As 1 ngý?i dùng
+	I want to chõi tr? chõi
+  Scenario: ch?n ð? khó
+   Given tôi ðang truy c?p ch?c nãng tr? chõi, các m?c ð? d?, trung b?nh, khó hi?n ra
+	When tôi ch?n “D?”
+	Then màn h?nh l?a ch?n các màn chõi m?c ð? d? hi?n ra
+	And tôi ch?n màn chõi và chõi
+        When tôi ch?n “Trung b?nh”
+	Then màn h?nh l?a ch?n các màn chõi m?c ð? trung b?nh hi?n ra
+        And tôi ch?n màn chõi và chõi
+        When tôi ch?n “Khó”
+	Then màn h?nh l?a ch?n các màn chõi m?c ð? khó hi?n ra
+        And tôi ch?n màn chõi và chõi
+  Scenario: chõi tr? chõi
+   Given tôi ð? ch?n m?c ð? chõi và màn chõi, câu h?i cho tôi hi?n ra
+	When tôi ch?n ðáp án A
+	Then tôi nh?n k?t qu? ðúng
+	And ði?m c?a tôi tãng lên 1
+	When tôi ch?n <câu ti?p>
+	Then tôi nh?n th?y câu h?i ti?p theo	
+  Scenario: chõi tr? chõi
+   Given tôi ð? ch?n m?c ð? chõi và màn chõi, câu h?i cho tôi hi?n ra
+	When tôi ch?n ðáp án B
+	Then tôi nh?n k?t qu? sai
+	And màn h?nh hi?n th? ðáp án ðúng, ði?m c?a tôi không tãng
+	When tôi ch?n <câu ti?p>
+	Then tôi nh?n th?y câu h?i ti?p theo		
+  Scenario: chõi tr? chõi
+   Given tôi ð? ch?n m?c ð? chõi và màn chõi, câu h?i cho tôi hi?n ra cùng các ðáp án bên dý?i ð? tôi l?a ch?n.
+	When tôi ch?n <Câu tr? l?i>
+	Then tôi nh?n <k?t qu?>
+	When tôi ch?n <câu ti?p>
+	Then tôi nh?n th?y câu h?i ti?p theo	
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
